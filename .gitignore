@@ -1,6 +1,2 @@
-# .gitignore
-
-# Ignorar archivos .env para proteger las variables de entorno
 .env
-# Ignorar la imagen en el directorio Sorteo_Amigo_Secreto
-Sorteo_Amigo_Secreto/regalo.jpg
+.jpg
