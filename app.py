@@ -1,3 +1,8 @@
+"""
+    Elaborado por: Yadir Vega Espinoza
+    Objetivo: Realizar sorteo de amigo secreto y enviar por correo electrónico a cada participante su respectivo amigo secreto.
+"""
+
 import smtplib
 import random
 import os
