@@ -177,7 +177,7 @@ class Aplicacion:
         juego_amigo_secreto = AmigoSecreto(self.participantes)
         parejas = juego_amigo_secreto.asignar_amigos()
         gestor_correo = GestorCorreo()
-        ruta_imagen = 'Ejemplo/Img/regalo.jpg'
+        ruta_imagen = 'Sorteo_Amigo_Secreto/Img/regalo.jpg'
         mensajes_exitosos = []  # Lista para almacenar mensajes de confirmación
         for persona, amigo in parejas.items():
             asunto = "Tu amigo secreto 2023, Familia Vega Espinoza"
